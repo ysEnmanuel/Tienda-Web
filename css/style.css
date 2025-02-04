@@ -8,6 +8,14 @@
     line-height: 20px;
 }
 
+.search {
+    background-color: #ffffff;
+    border: 1px solid #e4daff;
+    border-radius: 100px;
+    color: #aba5bb;
+    padding: 10px 100px;
+}
+
 .menu {
     background-color: #f6f4ff;
     border: 1px solid #e4daff;
@@ -19,8 +27,8 @@
     margin-right: 5%;
     display: flex;
     position: fixed;
-    inset: 0% 0% auto;
-    padding: 10px;
+    inset: 0% 10% auto; 
+    color: #aba5bb;
 }
 
 .menu button {
@@ -47,7 +55,6 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
     text-decoration: none;
     font-size: 1.2rem;
 }
