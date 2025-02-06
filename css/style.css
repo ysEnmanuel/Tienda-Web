@@ -10,21 +10,21 @@
 
 .search {
     background-color: #ffffff;
-    border: 1px solid #e4daff;
+    border: 1px solid #dae8ff;
     border-radius: 100px;
     color: #aba5bb;
     padding: 10px 130px;
 }
 
 .menu {
-    background-color: #f6f4ff;
-    border: 1px solid #e4daff;
+    background-color: #f4feff;
+    border: 1px solid #dae8ff;
     border-radius: 100px;
     justify-content: right;
     align-items: center;
     margin-top: 1.5rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     position: fixed;
     inset: 0% 10% auto; 
@@ -40,6 +40,13 @@
     padding: 1rem 2rem;
     transition: transform .2s ease-in-out, background-color .3s;
     font-size: 15px;
+}
+
+.menu button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
 }
 
 nav ul {
