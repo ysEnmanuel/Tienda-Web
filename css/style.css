@@ -14,6 +14,7 @@
     border-radius: 100px;
     color: #aba5bb;
     padding: 10px 130px;
+    margin: 0 16px;
 }
 
 .menu {
@@ -48,6 +49,14 @@
     font-size: 15px;
     font-weight: 550;
 }
+
+.menu img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    height: 40px;
+    
+}	
 
 nav ul {
     list-style: none;
