@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<style>
+    .carousel {
+        margin: 0 auto;
+        padding: 20px 0;
+        max-width: 1400px;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .card {
+        width: 100%;
+        color: white;
+        border-radius: 24px;
+        padding: 10px 5px;
+        margin: 10px 0px;
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+    }
+
+    .card img {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 24px;
+    }
+</style>
+
+<style>
+    .carousel {
+
+        /* ... */
+        >* {
+            flex: 0 0 100%;
+        }
+    }
+
+    /* Group the cards for better structure. */
+    .group {
+        display: flex;
+        gap: 20px;
+        /* Add padding to the right to create a gap between the last and first card. */
+        padding-right: 20px;
+    }
+</style>
+<div class="carousel">
+    <div class="group">
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+    </div>
+    <!-- Add `aria-hidden` to hide the duplicated cards from screen readers. -->
+    <div aria-hidden class="group">
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+        <div class="card"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" alt=""></div>
+    </div>
+</div>
+<style>
+    .group {
+        /* ... */
+        will-change: transform;
+        /* We should be nice to the browser - let it know what we're going to animate. */
+        animation: scrolling 10s linear infinite;
+    }
+
+    @keyframes scrolling {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+<style>
+    .carousel {
+
+        /* ... */
+        &:hover .group {
+            animation-play-state: paused;
+        }
+    }
+</style>
