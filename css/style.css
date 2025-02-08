@@ -178,7 +178,7 @@ nav ul li:hover>ul {
 
 .logo_items {
     display: inline-block;
-    animation: 70s slides infinite linear;
+    animation: 120s slides infinite linear;
 }
 
 .logos:hover .logo_items {
