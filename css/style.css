@@ -30,7 +30,6 @@
     display: flex;
     position: fixed;
     inset: 0% 10% auto;
-    color: #aba5bb;
 }
 
 .menu button {
@@ -42,6 +41,7 @@
     padding: 1rem 2rem;
     transition: transform .2s ease-in-out, background-color .3s;
     font-size: 15px;
+    margin-right: 0.7rem;
 }
 
 .menu button a {
@@ -74,6 +74,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
+    color: rgb(110, 110, 110);
 }
 
 nav ul li ul {
