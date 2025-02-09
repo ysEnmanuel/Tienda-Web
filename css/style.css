@@ -141,11 +141,10 @@ nav ul li:hover>ul {
 }
 
 @keyframes slides {
-    from {
-        transform: translateX(0);
+    0% {
+        transform: translateX(0%);
     }
-
-    to {
+    100% {
         transform: translateX(-100%);
     }
 }
@@ -179,7 +178,7 @@ nav ul li:hover>ul {
 
 .logo_items {
     display: inline-block;
-    animation: 120s slides infinite linear;
+    animation: slides 120s linear infinite;
 }
 
 .logos:hover .logo_items {
