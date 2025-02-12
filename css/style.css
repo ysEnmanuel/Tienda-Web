@@ -90,7 +90,7 @@ nav ul li a {
     font-size: 14px;
     font-weight: 550;
     line-height: 20px;
-    color: rgb(171, 165, 187);
+    color: rgb(165 182 187);
 }
 
 .dropdown {
@@ -212,4 +212,10 @@ nav ul li ul li a:hover {
 
 #logo-box {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .menu {
+        width: 59%;
+    }
 }
