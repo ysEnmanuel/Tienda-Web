@@ -207,7 +207,7 @@ nav ul li ul li a:hover {
     vertical-align: middle;
     font-weight: 600;
     color: white;
-    text-shadow: #1a1a1a 1px 1px 1px;
+    text-shadow: #1a1a1a80 2px 2px 2px;
 }
 
 #logo-box {
