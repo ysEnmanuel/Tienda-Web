@@ -40,9 +40,7 @@
     border-radius: 100px;
     justify-content: right;
     align-items: center;
-    margin-top: 1.5rem;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin: 1.5rem 17%;
     display: flex;
     position: fixed;
     inset: 0% 10% auto;
@@ -67,8 +65,7 @@
     vertical-align: middle;
     max-width: 100%;
     display: inline-block;
-    height: 40px;
-
+    height: 38px;
 }
 
 .menu button:hover {
@@ -104,7 +101,7 @@ nav ul li ul {
     display: none;
     position: absolute;
     top: 63%;
-    left: 70%;
+    left: 71.5%;
     background-color: #fff;
     padding: 0;
     list-style: none;
@@ -198,4 +195,21 @@ nav ul li ul li a:hover {
     margin: 0px 20px;
     border-radius: 20px;
     max-height: 8rem;
+}
+
+.logo-menu {
+    display: inline-block;
+}
+
+#logo-nombre {
+    font-size: 19px;
+    margin: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+    color: white;
+    text-shadow: #1a1a1a 1px 1px 1px;
+}
+
+#logo-box {
+    text-decoration: none;
 }
