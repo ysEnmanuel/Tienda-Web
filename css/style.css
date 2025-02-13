@@ -229,7 +229,7 @@ nav ul li ul li a:hover {
 
 #productos {
     margin: 10px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #bebidas {
@@ -366,7 +366,7 @@ h2 {
 }
 
 .containerfo {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
 
 }
@@ -386,7 +386,7 @@ h2 {
 .footer-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 300px;
+    margin-left: 550px;
     /*margin-right: ;*/
 }
 
