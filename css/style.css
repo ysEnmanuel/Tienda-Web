@@ -28,7 +28,7 @@
     border-radius: 100px;
     color: #c7c7c7;
     padding: 10px 18px;
-    margin-left:16px;
+    margin-left: 16px;
     width: 22rem;
     height: 36px;
 }
@@ -255,6 +255,9 @@ h1 {
     margin-top: 70px;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 
 .price {
@@ -272,7 +275,10 @@ h1 {
 }
 
 .imgsec1 {
-    margin-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .imgsec23 {
@@ -280,7 +286,8 @@ h1 {
 }
 
 .productos {
-    margin-top: 70px;
+    margin:auto;
+    padding: auto;
 }
 
 h3 {
@@ -322,13 +329,10 @@ h2 {
 
 }
 
-.elementoca:hover {
+/* .elementoca:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-}
+} */
 
-.info-product {
-    padding: 15px 30px;
-}
 
 .elementoca img {
     /* width: 100%;*/
@@ -352,6 +356,9 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border: 1px solid #00000021;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .price {
@@ -366,6 +373,7 @@ h2 {
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
+    border-radius: 15px;
 }
 
 .containerfo {
@@ -380,7 +388,7 @@ h2 {
 }
 
 .footer {
-    background-color: #b1b1b1;
+    background-color: #EFEFEF;
     padding: 80px 0;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -428,7 +436,11 @@ h2 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
+}
 
+.footerfo a {
+    text-decoration: none;
+    color: #01004B;
 }
 
 span {
