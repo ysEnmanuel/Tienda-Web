@@ -323,7 +323,7 @@ h2 {
 }
 
 .elementoca:hover {
-    box-shadow: 0 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .info-product {
