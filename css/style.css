@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     list-style: none;
 }
 
@@ -146,9 +146,9 @@ nav ul li ul li a:hover {
 
 .banner2 img {
     /*padding-top: 5.3rem;*/
-   margin-top: 10px;
-   margin-bottom: 10px;
-   width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 
 }
 
@@ -240,7 +240,7 @@ nav ul li ul li a:hover {
 }
 
 #aperitivos {
-    
+
     margin: 50px 10px 10px 10px;
     text-align: center;
 }
@@ -323,7 +323,7 @@ h2 {
 }
 
 .elementoca:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 10px 20px;
 }
 
 .info-product {
@@ -371,7 +371,7 @@ h2 {
 .containerfo {
     /*max-width: 1200px;*/
     margin: 0 auto;
-   
+
 
 }
 
@@ -438,8 +438,17 @@ span {
 #logo-h2 {
     text-align: center;
     margin: 40px 0px 55px 0px;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 35px;
     text-decoration: none;
-    font-family: sans-serif;
+    display: block;
+}
+
+#logo-h2 span {
+    display: inline;
+    padding: 0;
+}
+
+#subrayado {
+    text-decoration: underline;
 }
