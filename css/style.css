@@ -28,7 +28,7 @@
     border-radius: 100px;
     color: #c7c7c7;
     padding: 10px 18px;
-    margin: 0 16px;
+    margin-left:16px;
     width: 22rem;
     height: 36px;
 }
@@ -196,7 +196,7 @@ nav ul li ul li a:hover {
     animation: slides 120s linear infinite;
 }
 
-.logos:hover .logo_items {
+.logo_items:hover {
     animation-play-state: paused;
 }
 
