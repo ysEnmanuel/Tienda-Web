@@ -51,7 +51,7 @@
     border-radius: var(--border-radius);
     justify-content: right;
     align-items: center;
-    margin: 1.5rem 19%;
+    margin: 1.5rem 10%;
     display: flex;
     position: fixed;
     inset: 0% 10% auto;
@@ -114,7 +114,7 @@ nav ul li ul {
     display: none;
     position: absolute;
     top: 63%;
-    left: 71.5%;
+    left: 70.5%;
     background-color: #fff;
     padding: 0;
     list-style: none;
